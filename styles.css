@@ -12,8 +12,8 @@ body {
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
-    --border-color: #ff9a0045;
-    --text-decoration-color: #ff9a00;
+    --border-color: #0f4e167a;
+    --text-decoration-color: #093f2cbb;
 }
 
 .container {
@@ -164,6 +164,7 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    padding-left: 20px;
 }
 .experiences {
     flex: 1 1 60%;
@@ -197,10 +198,9 @@ body {
 }
 
 .experiences__company-project-role {
-    color: var(--durability-text-color);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .experiences__company-project-name {
@@ -226,6 +226,10 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+    margin-bottom: 20px; 
 }
 
 .additional-info__education-university-durability {
